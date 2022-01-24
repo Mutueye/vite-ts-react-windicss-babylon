@@ -1,0 +1,10 @@
+{
+  "prettier.jsxSingleQuote": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "css.validate": false,
+  "scss.lint.unknownAtRules": "ignore",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true
+}
