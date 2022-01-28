@@ -1,7 +1,7 @@
 import React from 'react';
 // import { BrowserRouter as Router } from 'react-router-dom';
 
-import Wrapper from './components/Wrapper';
+import Wrapper from 'src/components/Wrapper';
 
 const App: React.FC = () => {
   return (

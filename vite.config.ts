@@ -2,15 +2,15 @@ import { defineConfig } from 'vite';
 import WindiCSS from 'vite-plugin-windicss';
 import react from '@vitejs/plugin-react';
 import envCompatible from 'vite-plugin-env-compatible';
-// import path from 'path';
+import * as path from 'path';
 
 export default defineConfig({
   plugins: [react(), WindiCSS(), envCompatible()],
-  // resolve: {
-  //   alias: {
-  //     src: path.resolve(__dirname, './src'),
-  //   },
-  // },
+  resolve: {
+    alias: {
+      src: path.resolve(__dirname, './src'),
+    },
+  },
   build: {
     commonjsOptions: {
       ignoreDynamicRequires: false,

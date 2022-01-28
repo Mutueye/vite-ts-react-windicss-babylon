@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import 'src/styles/index.scss';
+import 'src/styles/index.scss';
 import 'virtual:windi.css';
 import App from './App';
 
